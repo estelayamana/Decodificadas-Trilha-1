@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.informacoes {
+    height: auto;
+    width: 60%;
+    margin: 30px;
+    padding: 40px 40px 40px 40px;
+    background-color:gainsboro;
+    bordeR: 10px double grey;
+    font-family: 'Roboto', Arial;
+    line-height: 1.5;
+}
+
+.informacoes h1 {
+    margin-bottom: 20px;
+}
+
+input[type="email"],
+input[type="text"],
+input[type="number"] {
+    display: block;
+    width: 90%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.botao {
+    margin-top: 30px;
+    display: block;
+    padding: 10px 20px;
+    background-color: grey;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 480px) {
+    .informacoes {
+        width: 90%;
+        margin: 15px;
+        padding: 20px;
+    }
+
+    input[type="email"],
+    input[type="text"],
+    input[type="number"] {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .informacoes {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .informacoes {
+        width: 70%;
+    }
+}
+
+@media screen and (max-width: 1600px) {
+    .informacoes {
+        width: 60%;
+    }
+}

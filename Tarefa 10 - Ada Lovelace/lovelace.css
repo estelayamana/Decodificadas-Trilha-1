@@ -1,0 +1,42 @@
+*{
+    justify-content: center;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+    background-color: lightgrey;
+}
+img {
+    width: 350px;
+    height: 450px;
+    margin: 5px;
+}
+.left {
+    display: inline-block;
+    background-color: white;
+    width: 500px;
+    height: 550px;
+    border: solid 1px grey;
+    padding: 10px;
+    margin: 5px;
+}
+
+.left h2 {
+    padding-top: 25px;
+    height: 80px;
+    text-align: center;
+    font-size: 30px;
+    font-family: sans-serif;
+}
+
+.right {
+    display: inline-block;
+    width: 350px;
+    height: 400px;
+    padding: 30px;
+    vertical-align: top;
+}
+
+.right p{
+    text-align: justify;
+}

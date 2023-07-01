@@ -1,0 +1,28 @@
+HTML IMAGES 
+
+Exercise:
+Use the correct HTML to make the text below into a link to "default.html".
+<a href="default.Html">Visit our HTML tutorial.</a>
+
+Exercise:
+Use CSS to remove the underline from the link.
+<a href="html_images.asp" style="text-decoration:none;">HTML Images</a>
+
+Exercise:
+Use the correct HTML attribute to make the link open in a new window.
+<a href="html_images.asp" target="_blank">HTML Images</a>
+
+Exercise:
+Use the correct HTML to make the image become a link to "default.html".
+<a href="default.html">
+<img src="smiley.gif">
+</a>
+
+Exercise:
+Add a "tooltip" to the link.
+The "tooltip" should say "Home".
+<a href="default.html" title="Home">Back to Home</a>
+
+Exercise:
+Use the HTML image attributes to set the size of the image to 250 pixels wide and 400 pixels tall.
+<img src="scream.png" width="250" height="400">

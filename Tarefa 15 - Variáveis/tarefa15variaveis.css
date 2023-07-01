@@ -1,0 +1,29 @@
+body {
+    background-color: #f2f2f2; /* Fundo cinza claro */
+    text-align: center; /* Centralizar conteúdo */
+    line-height: 2; /* Espaçamento duplo entre linhas */
+}
+
+input[type="text"] {
+    border: none; /* Remover a borda padrão */
+    border-bottom: 2px solid blue; /* Moldura azul na parte inferior */
+    padding: 5px;
+    text-align: left; /* Texto à esquerda */
+    font-family: "Arial", sans-serif; /* Fonte padrão */
+}
+
+h1 {
+    font-family: "Arial", sans-serif; /* Fonte padrão */
+    font-weight: normal;
+}
+
+#resultado {
+    border: 2px solid blue; /* Moldura azul */
+    padding: 10px;
+    text-align: center; /* Texto centralizado */
+    font-family: "Arial", sans-serif; /* Fonte padrão */
+    font-weight: bold; /* Texto em negrito */
+    line-height: 2; /* Espaçamento duplo entre linhas */
+    margin: 20px auto; /* Centralizar horizontalmente */
+    max-width: 400px; /* Definir uma largura máxima para a caixa de resultado */
+}
