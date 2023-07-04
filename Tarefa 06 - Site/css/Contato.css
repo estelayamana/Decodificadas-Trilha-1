@@ -1,1 +1,45 @@
+@charset "UTF-8";
+section#corpo h3 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 15pt;
+    margin-bottom: 0px;
+}
 
+section#corpo ul{
+    display: block;
+}
+
+section#corpo li {
+    display: inline-block;
+    padding: 10px 10px 10px 10px;
+    margin-left: 30px;
+}
+
+section#corpo h2 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 15pt;
+    margin-bottom: 0px;
+}
+
+section#mapa h3 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 15pt;
+    margin-bottom: 0px;
+}
+
+section#mapa h2 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 15pt;
+    margin-bottom: 0px;
+}
+
+section#mapa {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 15pt;
+    margin-bottom: 0px;
+}
