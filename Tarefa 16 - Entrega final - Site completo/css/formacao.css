@@ -1,0 +1,41 @@
+@charset "UTF-8";
+
+section#corpo p#frase{
+    position: relative;
+    margin-top: -215px;
+    font-size: 16pt;
+    color: #ffffff;
+    padding: 20px 0px 20px 320px;
+}
+
+section#corpo h3{
+    font-size: 20pt;
+    text-align: right;
+    margin-top: -10px;
+    padding-right: 30px;
+}
+
+section#corpo p#formacao{
+    font-size: 14pt;
+    text-align: justify;
+    text-indent: 50px;
+    padding: 0px 30px 0px 30px;
+}
+
+section#corpo h4{
+    font-size: 15pt;
+    text-align: left;
+    margin-top: -10px;
+    padding-right: 30px;
+}
+
+section#corpo ul{
+    font-size: 12pt;
+    text-align: left;
+    margin-top: -10px;
+    padding-right: 30px;
+}
+
+section#corpo video{
+    margin: 0 auto;
+   }
